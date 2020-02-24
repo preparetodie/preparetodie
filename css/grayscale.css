@@ -166,8 +166,10 @@ a {
   padding-top: 130px;
   padding-bottom: 150px; }
 
-.downloads{
-  display: flex;
+@media (min-width: 768px) {
+  .downloads{
+    display: flex;
+  }
 }
 
 .operative-sistem-img{
